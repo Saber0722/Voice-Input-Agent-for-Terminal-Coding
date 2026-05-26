@@ -1,0 +1,19 @@
+# config.yaml
+whisper:
+  model: large-v3
+  device: cuda
+  language: en
+
+aider:
+  model: ollama/qwen2.5-coder:7b
+  extra_args:
+    - --no-auto-commits
+    - --no-show-model-warnings
+
+vad:
+  aggressiveness: 2
+  silence_frames_to_stop: 20
+
+voice_commands:
+  exit:   ["exit", "quit", "stop", "goodbye"]
+  reset:  ["new session", "new chat", "start over"]

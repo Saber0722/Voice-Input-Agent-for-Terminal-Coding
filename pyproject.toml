@@ -1,0 +1,18 @@
+[project]
+name = "voice-aider"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aider-chat>=0.86.2",
+    "faster-whisper>=1.2.1",
+    "openwakeword>=0.6.0",
+    "pexpect>=4.9.0",
+    "pyaudio>=0.2.14",
+    "pyyaml>=6.0.3",
+    "rich>=14.3.2",
+    "setuptools>=82.0.1",
+    "tflite-runtime>=2.14.0",
+    "webrtcvad>=2.0.10",
+]
