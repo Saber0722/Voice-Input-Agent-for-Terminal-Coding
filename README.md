@@ -34,7 +34,7 @@ Microphone → VAD → Whisper STT → Aider (via PTY)
 ### 1. Clone and create environment
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Saber0722/Voice-Input-Agent-for-Terminal-Coding.git
 cd voice-aider
 uv venv
 source .venv/bin/activate
